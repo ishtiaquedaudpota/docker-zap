@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-# Either add the following parameter values in the Jenkins job or directly add in the script
+# The PROXY_HOST and PROXY_PORT params are used to set corporate or outgoing proxy in ZAP
+# Either add the following parameter values in the Jenkins job or directly set in the script
 PROXY_HOST=${PROXY_HOST}
 PROXY_PORT=${PROXY_PORT}
 TARGET_URL=${TARGET_URL}
